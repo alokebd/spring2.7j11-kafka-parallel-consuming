@@ -1,9 +1,6 @@
 ### Spring Kafka order services parallel communication.
 - The demo project with Spring boot & Apache Kafka for Order Processing services for paallel processing concept. 
 
-## Flow Diagram
-![Architectrue](DIAGRAM.PNG)
-
 ## Prerequisites
 - Spring Boot (2.7.5)
 - Maven 
