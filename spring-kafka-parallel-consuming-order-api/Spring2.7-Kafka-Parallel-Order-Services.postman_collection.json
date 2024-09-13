@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "7b91982c-6ae8-43cd-9dae-996bf05bc01e",
+		"name": "Spring2.7-Kafka-Parallel-Order-Services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33936986"
+	},
+	"item": [
+		{
+			"name": "Publish Orders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9002/kafka/v1/orders/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"kafka",
+						"v1",
+						"orders",
+						"20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
